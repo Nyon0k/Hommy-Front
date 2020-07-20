@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+	background-color: #c5ffff;
+}
+div{
+	background-color: #fff;
+}
+a:link, a:visited{
+	color: black;
+	padding: 10px;
+}
+a:hover{
+	color: black;
+	background-color: #c5ffff;
+}
+ul.separador{
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+ul.separador li{
+  padding: 0.5em 0;
+  border-bottom: 1px solid #CCC;
+  border-color: #c0c0c0;
+}
+
+ul.separador li:last-child{
+  border-bottom: 0;
+}
+h2{
+	font-size: 2.4em;
+	margin: 50px;
+	color: #56ccf2;
+}
+h3{
+	font-size: 1.8em;
+	margin: 50px;
+}
+#cabecalho{
+	background-color: #c5ffff;
+	text-align: left;
+}
+.menufixo{
+	width: 100%;
+	position: fixed;
+}
+.fonte{
+	background-color: #c5ffff;
+	font-family: 'Ravi Prakash', cursive;
+	font-size: 3em;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-right: 30px;
+}
+.navbar{
+	background-position: fixed;
+	background-color: white;
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.navbar2{
+	text-decoration: none;
+	font-size: 1.4em;
+	color: black;
+	margin: 30px;
+	margin-left: 0.6%;
+}
+.logo{
+	background-color: #c5ffff;
+	background-image: linear-gradient(rgb(197,255,255), rgb(255, 255, 253));
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 0px;
+}
+.corpo{
+	background-color: #c5ffff;
+	text-align: center;
+	border: 400, 300;
+}
+.info{
+	font-size: 1.5em;
+	margin: 50px;
+}
+.info2{
+	font-style: italic;
+	font-size: 1.5em;
+	margin: 50px;
+}
+#sobre{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+#hommyapp{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+#download{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+#contato{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.rodape{
+	font-size: 1.5em;
+	color: #fff;
+	position: bottom;
+	text-align: right;
+	background-color: black;
+}
+.rodape2{
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.rodape3{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
